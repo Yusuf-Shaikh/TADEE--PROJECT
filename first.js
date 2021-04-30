@@ -262,7 +262,7 @@ function Output(){
     output[6].innerText=math.round(B,5);
     output[7].innerText=math.round(C,5);
     output[8].innerText=math.round(D,5);
-    output[9].innerText=math.round(math.divide(Vs,math.pow(10,3)),5);
+    output[9].innerText=math.round(math.divide(Vs,math.pow(10,3)/math.sqrt(3)),5);
     output[10].innerText=math.round(Is,5);
     output[11].innerText=math.round(VR,5);
     output[12].innerText=math.round((Ps-Pr)/math.pow(10,6),5);
